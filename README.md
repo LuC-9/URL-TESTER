@@ -12,9 +12,14 @@ curl is a command line tool to transfer data to or from a server, using any of t
 
 curl is powered by Libcurl. This tool is preferred for automation, since it is designed to work without user interaction. curl can transfer multiple file at once.
 ------------------------------------------------------------------------------------------------------------------------------------------
-if curl -s --head --max-time <TIME IN SECONDS>  --request GET https://example.com | grep "200 OK" > /dev/null; then 
+if curl -s --head --max-time <TIME IN SECONDS>  --request GET https://example.com | grep "200 OK" > /dev/null;
+  
+then 
+  
    echo "https://example.com is UP"
+   
 else
+
    echo "https://example.com is DOWN"
  
 ### -s, --silent        Silent mode
