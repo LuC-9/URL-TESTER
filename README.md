@@ -1,4 +1,4 @@
-# URL-TESTER
+# URL-TESTER (BASH SCRIPT)
 
 ## Dependencies:-
   curl
